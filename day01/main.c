@@ -14,5 +14,11 @@ int main(int argc, char const *argv[])
 
 
 // gcc编译main.c
-// 方式一：gcc 源文件名 -o 可执行文件名
-// 例子：gcc main.c -o main.exe
+// windows系统
+	// 方式一：gcc 源文件名 -o 可执行文件名
+	// 例子：gcc main.c -o main
+// mac/Linux系统
+	// 方式一：gcc 源文件名 -o 可执行文件名
+	// 例子：gcc main.c -o main
+	// 方式二：gcc -o 可执行文件名 源文件名
+	// 例子：gcc -o main main.c
