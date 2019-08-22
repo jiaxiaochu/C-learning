@@ -24,4 +24,6 @@ brew install gcc
 ]  
 }
 ```
+- 保存成C.sublime-build
+
 3. 快捷键：cmd+b(编译)，shift+cmd+b(运行)
